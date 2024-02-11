@@ -9,7 +9,6 @@ public class Palindrome_String {
             {
                 return 0;
             }
-            
         }
         return 1;
    }
