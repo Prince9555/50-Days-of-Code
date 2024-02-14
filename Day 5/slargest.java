@@ -1,6 +1,6 @@
 
 class Solution {
-    int print2largest(int arr[], int n) {
+    int print2largest(int  arr[], int n) {
         // code here
         int largest =arr[0];
         for(int i=0;i<n;i++)

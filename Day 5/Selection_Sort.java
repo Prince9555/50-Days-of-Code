@@ -1,5 +1,5 @@
 class Solution {
-    int select(int arr[], int i, int n) {
+    int select(int arr[], int i , int n) {
         int min_index = i;
         for (int j = i + 1; j < n; j++) {
             if (arr[j] < arr[min_index])

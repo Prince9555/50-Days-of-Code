@@ -1,6 +1,6 @@
 class Solution {
     // Function to find the trapped water between the blocks.
-    static long trappingWater(int arr[], int n) {
+    static long trappingWater(int  arr[], int n) {
         int left = 0;
         int right = n - 1;
         int left_max = 0;
