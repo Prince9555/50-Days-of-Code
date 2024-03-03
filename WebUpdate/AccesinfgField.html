@@ -1,0 +1,103 @@
+<html>
+<body>
+<script type="text/javascript">  
+function printvalue(){  
+var name=document.form1.name.value;  
+alert("Welcome: "+name);  
+}  
+</script>  
+  
+<form name="form1">  
+Enter Name:<input type="text" name="name"/>  
+<input type="button" onclick="printvalue()" value="print name"/>  
+</form>
+</body>
+</html> 
+
+<!-- <html>
+<body>
+<script type="text/javascript">  
+function getcube(){  
+var number=document.getElementById("number").value;  
+alert(number*number*number);  
+}  
+</script>  
+<form>  
+Enter No:<input type="text" id="number" name="number"/><br/>  
+<input type="button" value="cube" onclick="getcube()"/>  
+</form>
+</body>
+</html> 
+ -->
+ <!-- documenent get by name
+<html>
+<body>
+<script type="text/javascript">  
+function totalelements()  
+{  
+var allgenders=document.getElementsByName("gender");  
+alert("Total Genders:"+allgenders.length);  
+}  
+</script>  
+<form>  
+Male:<input type="radio" name="gender" value="male">  
+Female:<input type="radio" name="gender" value="female">  
+  
+<input type="button" onclick="totalelements()" value="Total Genders">  
+</form>
+</body>
+</html> 
+ -->
+ <!-- get by name
+  <html>  
+<head> <h5>DOM Methods </h5> </head>  
+<body>  
+<div class="Class">  
+This is a simple class implementation  
+</div>  
+<script type="text/javascript">  
+var x=document.getElementsByClassName('Class');  
+document.write("On calling x, it will return an arrsy-like object: <br>"+x);  
+</script>  
+</body>  
+</html> 
+  
+
+
+inner html 
+
+<script type="text/javascript" >  
+function showcommentform() {  
+var data="Name:<input type='text' name='name'><br>Comment:<br><textarea rows='5' cols='80'></textarea>  
+<br><input type='submit' value='Post Comment'>";  
+document.getElementById('mylocation').innerHTML=data;  
+}  
+</script>  
+<form name="myForm">  
+<input type="button" value="comment" onclick="showcommentform()">  
+<div id="mylocation"></div>  
+</form> 
+
+inner propety
+
+<script type="text/javascript" >  
+function validate() {  
+var msg;  
+if(document.myForm.userPass.value.length>5){  
+msg="good";  
+}  
+else{  
+msg="poor";  
+}  
+document.getElementById('mylocation').innerText=msg;  
+ }  
+  
+</script>  
+<form name="myForm">  
+<input type="password" value="" name="userPass" onkeyup="validate()">  
+Strength:<span id="mylocation">no strength</span>  
+</form> 
+
+
+
+ -->
