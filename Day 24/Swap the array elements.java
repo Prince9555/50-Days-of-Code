@@ -39,7 +39,7 @@ class Solution
         for(int i=0;i<n-2;i++)
         {
             int temp=arr[i];
-            arr[i]=arr[j];
+            arr[i]=arr[j]; 
             arr[j]=temp;
             j++;
         }
