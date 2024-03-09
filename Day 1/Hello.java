@@ -1,4 +1,3 @@
-package day2;
 
 public class missing_number {
     
